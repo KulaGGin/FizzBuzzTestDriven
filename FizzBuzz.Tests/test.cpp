@@ -1,6 +1,8 @@
 #include "pch.h"
 
-TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
-  EXPECT_TRUE(true);
+#include "../FizzBuzz/FizzBuzz.h"
+
+TEST(FizzBuzzTest, CanInvokeCountNumbers) {
+    FizzBuzz fizzBuzz{};
+    fizzBuzz.CountNumbers();
 }
